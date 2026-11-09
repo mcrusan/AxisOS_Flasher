@@ -1,9 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher)
- *  File    : image.c
- *  Author  : Marc / AxisOS
- *  Purpose : Parses file@address syntax and populates flash_image_t structures.
+ * File:        image.c
+ * Description: Parses file@address CLI syntax and populates flash_image_t structures.
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #define _POSIX_C_SOURCE 200809L
 

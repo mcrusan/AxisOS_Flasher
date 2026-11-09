@@ -1,13 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher) 🍌
- *  File    : bootrom_pkt.h
- *  Author  : Marc / AxisOS
- *  Purpose : Packet-level interface for ESP32 ROM bootloader protocol.
- *            Handles SLIP framing, packet header construction, checksum,
- *            send/receive, and response parsing.
- *
- *  Easter Egg: PP watches all packets. 🐒
+ * File:        bootrom_pkt.h
+ * Description: Packet-level interface for ESP32 ROM bootloader SLIP framing, checksums, and response parsing. 🍌🐒
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #ifndef AXFLASH_BOOTROM_PKT_H
 #define AXFLASH_BOOTROM_PKT_H

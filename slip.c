@@ -1,10 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher) 🍌
- *  File    : slip.c
- *  Author  : Marc / AxisOS
- *  Purpose : Implements SLIP encoding and decoding for ESP32 ROM bootloader
- *            packets. Provides clean, minimal routines for packet framing.
+ * File:        slip.c
+ * Description: Implements SLIP (Serial Line Internet Protocol) encoding and decoding for ESP32 ROM packets. 🍌
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #include "slip.h"
 

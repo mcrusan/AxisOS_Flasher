@@ -1,12 +1,12 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher)
- *  File    : serial.c
- *  Author  : Marc / AxisOS
- *  Purpose : Cross-platform serial port abstraction for the AxisOS flasher.
- *            Provides open/close/read/write and DTR/RTS control. All low-level
- *            serial operations are isolated here to keep the rest of the
- *            flasher clean and portable.
+ * File:        serial.c
+ * Description: Cross-platform POSIX/Win32 serial port abstraction with DTR/RTS bootloader reset control.
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
+
 #define _GNU_SOURCE
 #define _DEFAULT_SOURCE
 

@@ -1,10 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher) 🍌🧞
- *  File    : bootrom_pkt.c
- *  Author  : Marc / AxisOS
- *  Purpose : Implements ESP32 ROM bootloader packet framing using SLIP.
- *            Adds real ESP32-style response parsing with multi-frame support.
+ * File:        bootrom_pkt.c
+ * Description: Implements ESP32 ROM bootloader SLIP packet framing and multi-frame response parsing. 🍌🧞
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #include "bootrom_pkt.h"
 

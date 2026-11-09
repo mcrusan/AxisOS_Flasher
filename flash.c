@@ -1,10 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher)
- *  File    : flash.c
- *  Author  : Marc / AxisOS
- *  Purpose : High-level flash write orchestration. Handles chunking, offsets,
- *            block sequencing, and delegates ROM operations to bootrom.c.
+ * File:        flash.c
+ * Description: High-level ESP32 flash write orchestration (chunking, offsets, block sequencing).
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #include "flash.h"
 #include "bootrom.h"

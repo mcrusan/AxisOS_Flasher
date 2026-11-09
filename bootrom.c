@@ -1,10 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher) 🧞
- *  File    : bootrom.c
- *  Author  : Marc / AxisOS
- *  Purpose : Implements ESP32 ROM bootloader protocol using the SLIP-based
- *            packet layer in bootrom_pkt.c. Adds baud-rate switching support.
+ * File:        bootrom.c
+ * Description: Implements ESP32 ROM bootloader protocol over SLIP framing with baud-rate switching support. 🧞
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #include "bootrom.h"
 #include "bootrom_cmd.h"

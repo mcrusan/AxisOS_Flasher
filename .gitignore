@@ -1,0 +1,12 @@
+# ==============================================================================
+# File:        .gitignore
+# Description: Ignore intermediate object files in AxisOS_Flasher repository
+# Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+# Date:        2026110901
+# Version:     v1.2.0
+# ==============================================================================
+# 2026110901 (MFC/PP/AGY) Added canonical 5-Field SOP .gitignore for object files.
+
+*.o
+*~
+*.bak

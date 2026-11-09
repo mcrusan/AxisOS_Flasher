@@ -1,11 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher)
- *  File    : main.c
- *  Author  : Marc / AxisOS
- *  Purpose : Entry point and high-level CLI orchestration for the AxisOS
- *            ESP32 flasher. Delegates all low-level work to serial, bootrom,
- *            flash, and image modules.
+ * File:        main.c
+ * Description: Entry point and high-level CLI orchestration for the Crusan & Co. AxisOS ESP32 flasher (axflash).
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #include <stdio.h>
 #include <stdlib.h>

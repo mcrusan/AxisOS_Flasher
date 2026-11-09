@@ -1,9 +1,11 @@
 /******************************************************************************
- *  Project : AxisOS - axflash (ESP32 Flasher)
- *  File    : bootrom.h
- *  Author  : Marc / AxisOS
- *  Purpose : Public interface for ESP32 ROM bootloader protocol operations.
+ * File:        bootrom.h
+ * Description: Public interface for ESP32 ROM bootloader protocol operations.
+ * Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+ * Date:        2026110601
+ * Version:     v1.2.0
  ******************************************************************************/
+// 2026110601 (MFC/PP/AGY) Upgraded to canonical Crusan & Co. 5-Field SOP Header standard.
 
 #ifndef AXFLASH_BOOTROM_H
 #define AXFLASH_BOOTROM_H
